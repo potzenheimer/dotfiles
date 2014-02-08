@@ -1,0 +1,14 @@
+*.egg-info
+dist
+build
+*.pyc
+*.pyo
+*.tmproj
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+Paste*
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
