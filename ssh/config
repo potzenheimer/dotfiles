@@ -1,0 +1,113 @@
+Host *.ade25.de *.kreativkombinat.de z* c* d* s*
+  User root
+  Port 22222
+
+Host dns
+  HostName moon.kreativkombinat.de
+
+Host mail
+  HostName mail.ade25.de
+
+Host admin
+  HostName admin.vorwaerts-werbung.de
+
+Host piwik
+  HostName admin.vorwaerts-werbung.de
+
+Host s1
+    HostName s1.ade25.de
+
+Host d1
+    HostName d1.ade25.de
+
+Host d2
+    HostName d2.ade25.de
+
+Host d3
+    HostName d3.ade25.de
+
+Host d4
+    HostName d4.ade25.de
+
+Host d5
+    HostName d5.ade25.de
+
+Host d6
+    HostName d6.ade25.de
+
+Host d7
+    HostName d7.ade25.de
+
+Host d8
+    HostName d8.ade25.de
+
+Host z1
+    HostName z1.ade25.de
+
+Host z2
+    HostName z2.ade25.de
+
+Host z3
+    HostName z3.ade25.de
+
+Host z4
+    HostName z4.ade25.de
+
+Host z5
+    HostName z5.ade25.de
+
+Host z6
+    HostName z6.ade25.de
+
+Host z7
+    HostName z7.ade25.de
+
+Host z8
+    HostName z8.ade25.de
+
+Host z9
+    HostName z9.ade25.de
+
+Host z10
+    HostName z10.ade25.de
+
+Host z11
+    HostName z11.ade25.de
+
+Host z12
+    HostName z12.ade25.de
+
+Host z13
+    HostName z13.ade25.de
+
+Host z14
+    HostName z14.ade25.de
+
+Host z15
+    HostName z15.ade25.de
+
+Host z16
+    HostName z16.ade25.de
+
+Host z17
+    HostName z17.ade25.de
+    Port 22
+
+Host wigo
+  HostName status.ade25.de
+
+Host hph
+    HostName 138.246.226.3
+    User root
+    Port 22
+
+Host xdash
+  HostName 146.185.176.99
+
+Host *
+  Protocol 2
+  User christoph
+  ForwardAgent yes
+  Compression yes
+  Cipher blowfish
+
