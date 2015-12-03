@@ -16,6 +16,14 @@ function calc() {
     printf "\n"
 }
 
+function passgen() {
+    if [ -z "$1" ]; then # argument
+        openssl rand -base64 24
+    else # pipe
+        openssl rand -base64 "$1"
+    fi
+}
+
 # Create a new directory and enter it
 function mkd() {
     mkdir -p "$@" && cd "$@"
